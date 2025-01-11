@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ハリネズミ</title>
+  <meta name="description" content="AI生成のハリネズミ専門サイトです。">
+  <meta property="og:title" content="ハリネズミのWEBサイト">
+  <meta property="og:description" content="ハリの世界へようこそ。">
+  <meta property="og:image" content="harired.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('hari.png') repeat;
+      background-size: 200px 200px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .content h1 {
+      font-size: 2.5em;
+      color: #555;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      color: #777;
+    }
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .content h1 {
+        font-size: 2em;
+      }
+
+      .content p {
+        font-size: 1em;
+      }
+
+      .container {
+        padding: 15px;
+      }
+
+      .image-gallery {
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>ハリネズミのWEBサイト</h1>
+      <p>ハリネズミの世界へようこそ。</p>
+    </div>
+
+    <div class="image-gallery">
+      <img src="akinohari.jpg" alt="Gallery Image 1">
+      <img src="Hana.jpg" alt="Gallery Image 2">
+      <img src="niko.jpg" alt="Gallery Image 3">
+      <img src="kawaii.jpg" alt="Gallery Image 4">
+    </div>
+
+    <div class="image-gallery">
+      <img src="hariItigo.jpg" alt="Gallery Image 5">
+      <img src="bahahari.jpg" alt="Gallery Image 6">
+      <img src="apple.jpg" alt="Gallery Image 7">
+      <img src="irasuto.jpg" alt="Gallery Image 8">
+    </div>
+
+    <div class="image-gallery">
+      <img src="1.jpg" alt="Gallery Image 9">
+      <img src="2.jpg" alt="Gallery Image 10">
+      <img src="3.jpg" alt="Gallery Image 11">
+      <img src="4.jpg" alt="Gallery Image 12">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
